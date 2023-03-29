@@ -27,6 +27,11 @@ package by.itstep.javatraining.revision.task;
 
 public class Task02 {
     public static int task02(int a, int b) {
+        if(a>b){
+            return 1;
+        }else if(b>a){
+            return 2;
+        }
         return 0;
     }
 }
